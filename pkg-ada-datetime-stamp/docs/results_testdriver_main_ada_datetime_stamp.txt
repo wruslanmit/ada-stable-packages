@@ -1,0 +1,120 @@
+File    : results_testdriver_main_ada_datetime_stamp.txt
+Date    : Sun 07 Mar 2021 04:06:10 PM +08
+Author  : wruslandr@gmail.com
+
+COMPILATION
+===========================================================
+gprbuild -d -P/home/wruslan/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.gpr -s -k
+Compile
+   [Ada]          testdriver_main_ada_datetime_stamp.adb
+   [Ada]          pkg_ada_datetime_stamp.adb
+Bind
+   [gprbind]      testdriver_main_ada_datetime_stamp.bexch
+   [Ada]          testdriver_main_ada_datetime_stamp.ali
+Link
+   [link]         testdriver_main_ada_datetime_stamp.adb
+[2021-03-08 01:22:49] process terminated successfully, elapsed time: 01.15s
+
+EXECUTION
+===========================================================
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec/testdriver_main_ada_datetime_stamp.adx
+STARTED: main Bismillah 3 times WRY
+
+(1) Executing procedure : PADTS.dtstamp; 
+2021-03-07 17:27:02.13118176762 
+
+(2) Executing function  : PADTS.get_date_stamp (currentTime); 
+2021-03-07
+
+(3) Executing function  : PADTS.get_time_stamp (currentTime); 
+17:27:02.13118220463
+
+ENDED: main Alhamdulillah 3 times WRY
+[2021-03-08 01:27:02] process terminated successfully, elapsed time: 00.19s
+
+FILE STRUCTURE
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ cd pkg-ada-datetime-stamp/
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp$ ls -al
+total 36
+drwxrwxr-x 8 wruslan wruslan 4096 Mar  8 00:20 .
+drwxrwxr-x 7 wruslan wruslan 4096 Mar  7 18:41 ..
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  8 01:31 docs
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  8 01:22 exec
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  8 01:33 figures
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  8 01:34 files
+drwxrwxr-x 2 wruslan wruslan 4096 Mar  8 01:22 obj
+-rw-rw-r-- 1 wruslan wruslan 1886 Mar  8 00:20 pkg_ada_datetime_stamp.gpr
+drwxrwxr-x 3 wruslan wruslan 4096 Mar  8 01:02 src
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp$ 
+
+FILE TREE STRUCTURE
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp$ tree ./
+./
+├── docs
+│   └── results_testdriver_main_ada_datetime_stamp.txt
+├── exec
+│   └── testdriver_main_ada_datetime_stamp.adx
+├── figures
+│   ├── Screenshot from 2021-03-08 01-31-14.jpg
+│   └── Screenshot from 2021-03-08 01-31-14.png
+├── files
+│   └── no_files_yet.txt
+├── obj
+│   ├── b__testdriver_main_ada_datetime_stamp.adb
+│   ├── b__testdriver_main_ada_datetime_stamp.ads
+│   ├── b__testdriver_main_ada_datetime_stamp.ali
+│   ├── b__testdriver_main_ada_datetime_stamp.o
+│   ├── gpsauto.cgpr
+│   ├── pkg_ada_datetime_stamp.adb.stderr
+│   ├── pkg_ada_datetime_stamp.adb.stdout
+│   ├── pkg_ada_datetime_stamp.ali
+│   ├── pkg_ada_datetime_stamp.cswi
+│   ├── pkg_ada_datetime_stamp.o
+│   ├── testdriver_main_ada_datetime_stamp.adb.stderr
+│   ├── testdriver_main_ada_datetime_stamp.adb.stdout
+│   ├── testdriver_main_ada_datetime_stamp.ali
+│   ├── testdriver_main_ada_datetime_stamp.bexch
+│   ├── testdriver_main_ada_datetime_stamp.cswi
+│   └── testdriver_main_ada_datetime_stamp.o
+├── pkg_ada_datetime_stamp.gpr
+└── src
+    ├── pkg-ada-datetime-stamp
+    │   ├── pkg_ada_datetime_stamp.adb
+    │   └── pkg_ada_datetime_stamp.ads
+    └── testdriver_main_ada_datetime_stamp.adb
+
+7 directories, 25 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp$ cd exec/
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec$ ls -al
+total 72
+drwxrwxr-x 2 wruslan wruslan  4096 Mar  8 01:22 .
+drwxrwxr-x 8 wruslan wruslan  4096 Mar  8 00:20 ..
+-rwxrwxr-x 1 wruslan wruslan 63416 Mar  8 01:22 testdriver_main_ada_datetime_stamp.adx
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec$
+
+EXECUTION IN TERMINAL
+=========================================================== 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec$ ./testdriver_main_ada_datetime_stamp.adx 
+STARTED: main Bismillah 3 times WRY
+
+(1) Executing procedure : PADTS.dtstamp; 
+2021-03-07 17:36:57.10089298275 
+
+(2) Executing function  : PADTS.get_date_stamp (currentTime); 
+2021-03-07
+
+(3) Executing function  : PADTS.get_time_stamp (currentTime); 
+17:36:57.10089401781
+
+ENDED: main Alhamdulillah 3 times WRY
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec$
+
+===========================================================
+ALHAMDULILLAH 3 TIMES.
+===========================================================
+

@@ -88,7 +88,7 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-re
 │   ├── info-Ada2012-Reference-Manual.txt
 │   └── results_testdriver_main_ada_realtime_delays.txt
 ├── exec
-│   └── test_driver_main_ada_realtime_delays.adx
+│   └── testdriver_main_ada_realtime_delays.adx
 ├── figures
 │   ├── jpg
 │   │   ├── Screenshot from 2021-03-07 21-53-41.jpg
