@@ -196,8 +196,25 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-re
 
 UPDATE GIT REPOSITORY
 ===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git add .
 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git commit -m "pkg-ada-realtime-delays completed."
+[main a676fef] pkg-ada-realtime-delays completed.
+ 2 files changed, 53 insertions(+), 3 deletions(-)
 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git push origin main
+Username for 'https://github.com': wruslanmit
+Password for 'https://wruslanmit@github.com': 
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.43 KiB | 1.43 MiB/s, done.
+Total 8 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/wruslanmit/ada-stable-packages.git
+   0d10d3b..a676fef  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ 
 
 ===========================================================
 ALHAMDULILLAH 3 TIMES WRY.

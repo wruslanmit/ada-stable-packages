@@ -196,6 +196,7 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git commi
  create mode 100644 pkg-ada-random-numbers/src/testdriver_main_ada_random_numbers.adb
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ 
 
+LOCAL IS origin, REMOTE IS main
 ===========================================================
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git push origin main
 Username for 'https://github.com': wruslanmit
