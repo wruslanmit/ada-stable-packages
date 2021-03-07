@@ -1,0 +1,9 @@
+http://www.ada-auth.org/arm.html
+
+This is the home of the Ada Reference Manual (ARM). The text of the Ada Reference manual is the source of the formal Ada Programming Language Standards. This site contains the ARM in multiple formats, the master version control system for the original source files (including the source for the tools) for the ARM, and other helpful documents.
+
+ADA 2012 REFERENCE MANUAL
+http://www.ada-auth.org/standards/rm12_w_tc1/RM-Final.pdf
+
+
+

@@ -1,9 +1,9 @@
--- File	: ada_testdriver_template.gpr
+-- File	: pkg_ada_realtime_delays.gpr
 -- Date	: Sun 07 Mar 2021 04:06:10 PM +08
 -- Author: wruslandr@gmail.com
 
 -- ========================================================
-project ada_testdriver_template
+project pkg_ada_realtime_delays
 -- ========================================================
 is
    -- LANGUAGES
@@ -17,12 +17,12 @@ is
    for Exec_Dir    use "exec";     -- NOTE: No parantheses
 
    -- STARTUP MAIN FILE
-   for Main use ("main_ada_testdriver_template.adb");
+   for Main use ("testdriver_main_ada_realtime_delays.adb");
    
    -- NAME OF THE EXECUTABLE FILE  
    -- ======== for gprbuild ===============================
    package Builder is
-      for Executable ("main_ada_testdriver_template.adb") use "main_ada_testdriver_template.adx";
+      for Executable ("testdriver_main_ada_realtime_delays.adb") use "testdriver_main_ada_realtime_delays.adx";
    end Builder;
    
    -- ======== File naming ================================
@@ -54,6 +54,6 @@ is
    end IDE;
 
 -- ========================================================
-end ada_testdriver_template;
+end pkg_ada_realtime_delays;
 -- ========================================================
 

@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__testdriver_main_ada_realtime_delays.o
+[PROJECT FILES]
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/pkg_ada_realtime_delays.gpr
+20210307133328
+[BOUND OBJECT FILES]
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/obj/pkg_ada_datetime_stamp.o
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/obj/pkg_ada_realtime_delays.o
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/obj/testdriver_main_ada_realtime_delays.o
+[GENERATED SOURCE FILES]
+b__testdriver_main_ada_realtime_delays.ads
+b__testdriver_main_ada_realtime_delays.adb
+b__testdriver_main_ada_realtime_delays.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/obj/
+-L/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnarl-9
+-lgnat-9
+-lpthread
+-lrt
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

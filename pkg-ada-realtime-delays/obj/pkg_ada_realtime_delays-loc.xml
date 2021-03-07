@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/pkg_ada_realtime_delays.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-mit/ada-stable-packages/pkg-ada-realtime-delays/src/testdriver_main_ada_realtime_delays.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
