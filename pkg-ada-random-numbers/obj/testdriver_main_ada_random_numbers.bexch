@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__testdriver_main_ada_random_numbers.o
+[PROJECT FILES]
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-random-numbers/pkg_ada_random_numbers.gpr
+20210307175935
+[BOUND OBJECT FILES]
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-random-numbers/obj/pkg_ada_random_numbers.o
+/home/wruslan/github-mit/ada-stable-packages/pkg-ada-random-numbers/obj/testdriver_main_ada_random_numbers.o
+[GENERATED SOURCE FILES]
+b__testdriver_main_ada_random_numbers.ads
+b__testdriver_main_ada_random_numbers.adb
+b__testdriver_main_ada_random_numbers.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github-mit/ada-stable-packages/pkg-ada-random-numbers/obj/
+-L/home/wruslan/github-mit/ada-stable-packages/pkg-ada-random-numbers/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnat-9
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

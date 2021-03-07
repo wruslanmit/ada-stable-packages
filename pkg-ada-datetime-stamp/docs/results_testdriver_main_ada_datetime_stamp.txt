@@ -114,7 +114,59 @@ STARTED: main Bismillah 3 times WRY
 ENDED: main Alhamdulillah 3 times WRY
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-datetime-stamp/exec$
 
+UPDATE GIT REPOSITORY
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git add .
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git commit -m "testdriver for pkg-ada-datetime-stamp completed" 
+[main 4ef0ce8] testdriver for pkg-ada-datetime-stamp completed
+ 27 files changed, 2061 insertions(+), 218 deletions(-)
+ create mode 100644 pkg-ada-datetime-stamp/docs/results_testdriver_main_ada_datetime_stamp.txt
+ create mode 100755 pkg-ada-datetime-stamp/exec/testdriver_main_ada_datetime_stamp.adx
+ create mode 100644 pkg-ada-datetime-stamp/figures/Screenshot from 2021-03-08 01-31-14.jpg
+ create mode 100644 pkg-ada-datetime-stamp/figures/Screenshot from 2021-03-08 01-31-14.png
+ create mode 100644 pkg-ada-datetime-stamp/files/no_files_yet.txt
+ create mode 100644 pkg-ada-datetime-stamp/obj/b__testdriver_main_ada_datetime_stamp.adb
+ create mode 100644 pkg-ada-datetime-stamp/obj/b__testdriver_main_ada_datetime_stamp.ads
+ create mode 100644 pkg-ada-datetime-stamp/obj/b__testdriver_main_ada_datetime_stamp.ali
+ create mode 100644 pkg-ada-datetime-stamp/obj/b__testdriver_main_ada_datetime_stamp.o
+ create mode 100644 pkg-ada-datetime-stamp/obj/gpsauto.cgpr
+ create mode 100644 pkg-ada-datetime-stamp/obj/pkg_ada_datetime_stamp.adb.stderr
+ create mode 100644 pkg-ada-datetime-stamp/obj/pkg_ada_datetime_stamp.adb.stdout
+ create mode 100644 pkg-ada-datetime-stamp/obj/pkg_ada_datetime_stamp.ali
+ create mode 100644 pkg-ada-datetime-stamp/obj/pkg_ada_datetime_stamp.cswi
+ create mode 100644 pkg-ada-datetime-stamp/obj/pkg_ada_datetime_stamp.o
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.adb.stderr
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.adb.stdout
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.ali
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.bexch
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.cswi
+ create mode 100644 pkg-ada-datetime-stamp/obj/testdriver_main_ada_datetime_stamp.o
+ delete mode 100644 pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb
+ create mode 100644 pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.gpr
+ create mode 100644 pkg-ada-datetime-stamp/src/pkg-ada-datetime-stamp/pkg_ada_datetime_stamp.adb
+ rename pkg-ada-datetime-stamp/{ => src/pkg-ada-datetime-stamp}/pkg_ada_datetime_stamp.ads (50%)
+ create mode 100644 pkg-ada-datetime-stamp/src/testdriver_main_ada_datetime_stamp.adb
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$
+
+=========================================================== 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ git push origin main
+Username for 'https://github.com': wruslanmit
+Password for 'https://wruslanmit@github.com': 
+Enumerating objects: 38, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (33/33), 401.06 KiB | 14.85 MiB/s, done.
+Total 33 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+To https://github.com/wruslanmit/ada-stable-packages.git
+   b998edf..4ef0ce8  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ 
+
 ===========================================================
 ALHAMDULILLAH 3 TIMES.
 ===========================================================
+
 

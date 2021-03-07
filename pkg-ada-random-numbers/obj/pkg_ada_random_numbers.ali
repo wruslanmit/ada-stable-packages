@@ -1,0 +1,131 @@
+V "GNAT Lib v9"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pkg_ada_random_numbers%b  pkg_ada_random_numbers.adb  618863ac OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U pkg_ada_random_numbers%s  pkg_ada_random_numbers.ads  60ba9a03 EE NE OO PK IL
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200312110721 bb51c45a ada.numerics%s
+D a-nudira.ads		20200312110721 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20200312110721 72908cdb ada.numerics.discrete_random%b
+D a-nuflra.ads		20200312110721 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D pkg_ada_random_numbers.ads  20210301063901 60ba9a03 pkg_ada_random_numbers%s
+D pkg_ada_random_numbers.adb  20210301060946 b89cbc60 pkg_ada_random_numbers%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-conca2.ads		20200312110721 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-imgint.ads		20200312110721 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20200312110721 c7a851e2 system.img_real%s
+D s-imguns.ads		20200312110721 9ff43cf7 system.img_uns%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-rannum.ads		20200312110721 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20200312110721 20ba1217 system.random_numbers%b
+D s-ransee.ads		20200312110721 01a57b33 system.random_seed%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-valuns.ads		20200312110721 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|3r6 3r23 4r6 5r6 13r28 20r32 38r19 46r7 48r19 61r30 81r17
+. 87r10 90r22
+X 4 a-numeri.ads
+16K13*Numerics 32e17 15|4r10 5r10 20r36 38r23 46r11 48r23 61r34 81r21 87r14
+. 90r26
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 15|4w19 20r45 61r43
+50R9 Generator<25|63R9> 15|23r17[20] 64r15[61]
+52V13 Random{15|19I12} 15|29s18[20] 71s19[61]
+55U14 Reset<25|100p14> 15|28s7[20] 70s8[61]
+X 6 a-nudira.adb
+53V16 Random[25|83]{15|19I12} 26|392b13[15|20]
+X 7 a-nuflra.ads
+41K22*Float_Random 74e30 15|5w19 38r32 46r20 48r32 81r30 87r23 90r35
+47R9*Generator<25|63R9> 15|38r45 81r43
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<25|71p13> 15|48s45 90s48
+53U14*Reset<25|100p14> 15|46s33 87s36
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|3w10 3r27 13r32
+263U14*Put_Line 15|72s13 92s15
+X 12 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 14 pkg_ada_random_numbers.ads
+3K9*pkg_ada_random_numbers 33l5 33e27 15|8b14 123l5 123t27
+9V13*get_random_integer{integer} 9>33 9>42 15|16b13 32l8 32t26
+9i33 low_end{integer} 15|16b33 19r48
+9i42 high_end{integer} 15|16b42 19r59
+10V13*get_random_float{float} 10>33 10>42 15|35b13 54l9 54t25
+10f33 low_end{float} 15|35b31 50r37 51r50
+10f42 high_end{float} 15|35b40 50r26
+12U14*generate_10_random_integers 15|57b15 75l9 75t36
+13U14*generate_10_random_floats 15|78b15 95l8 95t33
+16U14*test_randomness_random_integers 16>47 16>56 15|98b14 105l8 105t39
+16i47 low_end{integer} 15|98b47
+16i56 high_end{integer} 15|98b56
+17U14*test_randomness_random_floats 17>47 17>56 15|108b14 115l8 115t37
+17f47 low_end{float} 15|108b45
+17f56 high_end{float} 15|108b54
+X 15 pkg_ada_random_numbers.adb
+13K13 ATIO=13:32 72r8 92r10
+19I12 RandomIntRange<integer> 20r61 24r17
+20K15 RandomInt[5|44] 21r11
+23r7 GenInt{5|50R9[20]} 28r13 29r25
+24i7 RandInt{19I12} 29m7 31r23
+38r7 GenFloat{7|47R9} 46r39 48r53
+39f7 RndFloat{float} 48m7 51r26
+41f7 the_range{float} 50m7 51r37
+42f7 the_rand_float{float} 51m7 53r15
+60I10 RandomIntRange<integer> 61r59 65r15 72r55
+61K13 RandomInt[5|44] 62r9
+64r5 GenInt{5|50R9[61]} 70r14 71r26
+65i5 RandInt{60I10} 71m8 72r76
+69i10 idx{integer}
+81r5 GenFloat{7|47R9} 87r42 90r56
+82f5 RndFloat{float} 90m10 92r69
+85i11 idx{integer}
+X 25 s-rannum.ads
+75V13*Random{12|74M9} 26|221i21
+76V13*Random{12|77M9} 26|221i21
+
