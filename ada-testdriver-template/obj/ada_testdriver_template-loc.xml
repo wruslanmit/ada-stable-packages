@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 31" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/pkg-ada-realtime-delays/pkg_ada_realtime_delays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 42" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 30" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 10" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 30" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 32" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 30" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 39" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 30" >
+      <vfs_project>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/ada_testdriver_template.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github-ztest-stable-pkgs/TESTS/ada-testdriver-template/src/main_ada_testdriver_template.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

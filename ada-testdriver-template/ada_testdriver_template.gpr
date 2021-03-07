@@ -1,0 +1,59 @@
+-- File	: ada_testdriver_template.gpr
+-- Date	: Sun 07 Mar 2021 04:06:10 PM +08
+-- Author: wruslandr@gmail.com
+
+-- ========================================================
+project ada_testdriver_template
+-- ========================================================
+is
+   -- LANGUAGES
+   -- for Languages   use ("Ada", "C", "C++");
+   -- for Languages   use ("Ada", "C");
+   for Languages use ("Ada");
+
+   -- DIRECTORIES
+   for Source_Dirs use ("src/**"); -- Covers every subdirectory in src
+   for Object_Dir  use "obj";      -- NOTE: No parantheses
+   for Exec_Dir    use "exec";     -- NOTE: No parantheses
+
+   -- STARTUP MAIN FILE
+   for Main use ("main_ada_testdriver_template.adb");
+   
+   -- NAME OF THE EXECUTABLE FILE  
+   -- ======== for gprbuild ===============================
+   package Builder is
+      for Executable ("main_ada_testdriver_template.adb") use "main_ada_testdriver_template.adx";
+   end Builder;
+   
+   -- ======== File naming ================================
+   package Naming is
+      for Spec_Suffix ("ada") use ".ads";
+      for Body_Suffix ("ada") use ".adb";
+   end Naming;
+
+   -- ======== for the compiler ===========================
+   package Compiler is
+      null;
+   end Compiler;
+
+   -- ======== for the binder =============================
+   -- RUN: gnatbind --help
+   package Binder is
+      null;
+   end Binder;
+
+   -- ======== for the linker =============================
+   -- RUN: gnatlink --help
+   package Linker is
+      null;
+   end Linker;
+
+   -- ======== for the IDE ================================
+   package IDE is
+      null;
+   end IDE;
+
+-- ========================================================
+end ada_testdriver_template;
+-- ========================================================
+
