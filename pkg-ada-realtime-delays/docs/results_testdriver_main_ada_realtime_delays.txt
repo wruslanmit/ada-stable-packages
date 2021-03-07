@@ -67,6 +67,7 @@ Raise Execution Time Underrun ---
 ENDED: main Alhamdulillah 3 times WRY
 [2021-03-07 23:44:54] process terminated successfully, elapsed time: 38.82s
 
+FILE STRUCTURE
 ===========================================================
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages$ cd pkg-ada-realtime-delays/
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays$ ls -al
@@ -81,6 +82,7 @@ drwxrwxr-x 2 wruslan wruslan 4096 Mar  7 23:43 obj
 -rw-rw-r-- 1 wruslan wruslan 1768 Mar  7 21:33 pkg_ada_realtime_delays.gpr
 drwxrwxr-x 4 wruslan wruslan 4096 Mar  7 21:39 src
 
+FILE TREE STRUCTURE
 ===========================================================
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays$ tree ./
 ./
@@ -134,6 +136,7 @@ wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-re
 10 directories, 36 files
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays$ 
 
+EXECUTE IN TERMINAL
 ===========================================================
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays$ cd exec/
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays/exec$ ls -al
@@ -190,6 +193,11 @@ Raise Execution Time Underrun ---
 
 ENDED: main Alhamdulillah 3 times WRY
 wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mit/ada-stable-packages/pkg-ada-realtime-delays/exec$ 
+
+UPDATE GIT REPOSITORY
+===========================================================
+
+
 
 ===========================================================
 ALHAMDULILLAH 3 TIMES WRY.
