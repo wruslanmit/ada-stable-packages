@@ -25,11 +25,22 @@ is
    procedure exec_delay_usec (usec : in Positive);
    procedure exec_delay_nsec (nsec : in Positive);
    
-   procedure exec_checktiming_overrun_underrun (startClock, finishClock : in AART.Time; deadlineDuration : in AART.Time_Span);
+   -- EXAMPLE USAGE OF VARIABLES
+   -- startClock  := AART.Clock;
+   -- finishClock := AART.Clock;
+   -- deadlineDuration := 3.5;     meaning 3.5 seconds of Time_Span.
+   
+   procedure exec_checktiming_overrun_underrun (startClock, finishClock : in AART.Time; 
+                                                deadlineDuration : in AART.Time_Span);
+                                                
    procedure exec_display_execution_time (startClock, finishClock : in AART.Time);
    
-   function is_timing_overrun (startClock, finishClock : in AART.Time; deadlineDuration : in AART.Time_Span) return Boolean;
-   function  get_execution_time_duration (startClock, finishClock : in AART.Time) return AART.Time_Span;
+   function is_timing_overrun (startClock, finishClock : in AART.Time; 
+                               deadlineDuration : in AART.Time_Span) 
+                               return Boolean;
+                               
+   function  get_execution_time_duration (startClock, finishClock : in AART.Time) 
+                               return AART.Time_Span;
    
 -- ======================================================== 
 end pkg_ada_realtime_delays;

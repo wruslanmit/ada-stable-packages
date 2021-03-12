@@ -14,20 +14,14 @@ is
    
    package AART renames Ada.Real_Time;
    package AASU renames Ada.Strings.Unbounded;
+   
+   -- USAGE
+   -- FOR ClockNow, USE AART.Clock
 
    procedure dtstamp;
-   function  get_datestamp (RTNow : in AART.Time) return AASU.Unbounded_String;
-   function  get_timestamp (RTNow : in AART.Time) return AASU.Unbounded_String;
-   
-   procedure exec_delay_time (interval : AART.Time_Span); -- REAL SECONDS
-   procedure exec_delay_sec  (sec  : in Positive);  -- INTEGER
-   procedure exec_delay_msec (msec : in Positive);
-   procedure exec_delay_usec (usec : in Positive);
-   procedure exec_delay_nsec (nsec : in Positive);
-   
-   procedure exec_check_overrun(the_start, the_finish : in AART.Time; the_deadline : in AART.Time_Span);
-   function  getif_overrun(the_start, the_finish : in AART.Time; the_deadline : in AART.Time_Span) return Boolean;
-   
+   function get_date_stamp (ClockNow : in AART.Time) return AASU.Unbounded_String; 
+   function get_time_stamp (ClockNow : in AART.Time) return AASU.Unbounded_String;
+ 
 -- ======================================================== 
 end pkg_ada_datetime_stamp;
 -- ========================================================
